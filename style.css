@@ -1,0 +1,923 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.stiky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.main-head {
+    display: flex;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.Web-name {
+    display: flex;
+    width: 23%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    font-family: 'Signika Negative', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.head-menu-img {
+    display: flex;
+
+    width: 70%;
+}
+
+.menubar {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menubar a {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(58, 55, 55);
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 15px;
+
+}
+
+.menubar a:hover {
+    color: #3498db;
+}
+
+.menu-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-img img {
+    width: 16px;
+    margin-left: 9px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0px;
+}
+
+
+
+/* ....... Above are the headers .......... */
+
+.welcome-part-col {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    /* margin-top: px; */
+    padding: 0;
+    background: url(./gallery/header-1st-col-img.jpg) center center;
+}
+
+.welcome-part-col::before {
+    content: "";
+    background: rgba(56, 64, 70, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.welcome-part-det {
+    position: relative;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.welcome-part-det h1 {
+
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.welcome-part-det h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 200px;
+    color: rgba(255, 255, 255, 0.8);
+
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.welcome-part-det .get-st-btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: #3498db;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.welcome-part-det h1 span {
+    border-bottom: 4px solid #3498db;
+}
+
+.welcome-part-col.welcome-part-det {
+    z-index: 2;
+}
+
+/* ....... Above are the body-img part ..........   */
+.we-do {
+    padding: 60px 0;
+    background-color: gray;
+}
+
+.we-do-det {
+    padding: 60px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.we-do-det p {
+    padding: 10px 0 0 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* ....... what we do end here ......... */
+
+/* ========= what we do carl 3 start here ========== */
+
+.col-1-card-3 {
+    max-width: 90%;
+    display: flex;
+    height: 37vh;
+    margin: auto;
+
+}
+
+.col-1-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 240px;
+    margin: auto;
+
+}
+
+.col-1-card:hover {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ========= what we do carl 3 end here ========== */
+
+/* ========= about us part start here ========== */
+.main-about-us {
+    max-width: 100%;
+    display: flex;
+    height: 480px;
+    margin-top: 115px;
+    /* background-color: gray; */
+}
+
+.about-us-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* background-color: green; */
+
+}
+
+.about-us-l img {
+    max-width: 550px;
+    height: 450px;
+    margin-left: 80px;
+
+}
+
+.about-us-r {
+    width: 50%;
+    /* background-color: red; */
+
+}
+
+.about-r-up {
+    margin-top: 20px;
+    margin-left: 8px;
+
+
+}
+
+.about-r-up p {
+    width: 90%;
+    margin-top: 10px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+    color: rgb(102, 95, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-det {
+    margin-top: 10px;
+    margin-left: -25px;
+    line-height: 1.9;
+    color: rgb(102, 95, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-r-down {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    margin-top: 15px;
+
+}
+
+.about-r-l {
+    width: 40%;
+    height: 220px;
+    margin-left: 15px;
+    /* background-color: rebeccapurple; */
+}
+
+.about-r-r {
+    width: 45%;
+    height: 220px;
+    /* background-color: yellow; */
+    margin-left: 15px;
+}
+
+.about-r-l-det {
+    margin-top: 65px;
+}
+
+.about-r-l-det h3 {
+    font-family: 'Raleway', sans-serif;
+    margin: 15px 10px;
+    color: rgb(37, 36, 36);
+}
+
+.about-r-l-det p {
+    width: 95%;
+    margin: 15px 10px;
+    line-height: 1.2;
+    color: rgb(102, 95, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* ========= about us part end here ========== */
+/* ========= Experience progress bar and counting part start =========== */
+
+
+.exp-prog-bar {
+    max-width: 100%;
+    height: fit-content;
+    /* background-color: gray; */
+}
+
+.prog-bar-up {
+    display: flex;
+    margin-top: 45px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.prog-bar-l {
+    width: 50%;
+    height: 250px;
+    padding: 15px;
+    margin-left: 100px;
+    /* background-color: green; */
+}
+
+.prog-bar-r {
+    width: 45%;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 95px;
+    margin-top: 15px;
+    /* background-color: lightcoral; */
+}
+
+.prog-det-html {
+    height: 45px;
+    /* background-color: peru; */
+}
+
+.prog-html {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-bar-html {
+    height: 10px;
+    border-radius: 1.5px;
+    /* background-color: blue; */
+}
+
+.prog-html-active {
+    height: 10px;
+    background-color: #3498db;
+}
+
+.prog-det-css {
+
+    height: 45px;
+    margin-top: 30px;
+    /* background-color: gray; */
+}
+
+.prog-css {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-bar-css {
+    width: 100%;
+    height: 10px;
+    border-radius: 1.5px;
+    background-color: rgb(214, 203, 203);
+}
+
+.prog-css-active {
+    width: 90%;
+    height: 10px;
+    background-color: #3498db;
+}
+
+.prog-det-script {
+    height: 45px;
+    margin-top: 30px;
+    /* background-color: lightpink; */
+
+}
+
+.prog-script {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-bar-script {
+    width: 100%;
+    height: 10px;
+    border-radius: 1.5px;
+    background-color: rgb(214, 203, 203);
+}
+
+.prog-script-active {
+    width: 75%;
+    height: 10px;
+    background-color: #3498db;
+}
+
+/* .............. left progress bar end here ..... */
+
+.prog-det-php {
+
+    height: 45px;
+    /* background-color: peru; */
+}
+
+.prog-php {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-bar-php {
+    height: 10px;
+    border-radius: 1.5px;
+    background-color: rgb(214, 203, 203);
+}
+
+.prog-php-active {
+    width: 80%;
+    height: 10px;
+    background-color: #3498db;
+}
+
+.prog-det-wordpreess-cms {
+
+    height: 45px;
+    margin-top: 15px;
+
+}
+
+.prog-wordpreess-cms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-bar-wordpreess-cms {
+    width: 100%;
+    height: 10px;
+    border-radius: 1.5px;
+    background-color: rgb(214, 203, 203);
+    ;
+}
+
+.prog-wordpreess-cms-active {
+    width: 90%;
+    height: 10px;
+    background-color: #3498db;
+}
+
+.prog-det-adobi {
+    height: 45px;
+    margin-top: 28px;
+
+
+}
+
+.prog-adobi {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.prog-bar-adobi {
+    width: 100%;
+    height: 10px;
+    border-radius: 1.5px;
+    background-color: rgb(214, 203, 203);
+}
+
+.prog-adobi-active {
+    width: 55%;
+    height: 10px;
+    background-color: #3498db;
+}
+
+/* ........ progress bar down start here ...... */
+.prog-bar-down {
+    height: 210px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prog-num {
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    /* background-color: red; */
+}
+
+.prog-num-det {
+    position: relative;
+    text-align: center;
+    margin-top: 55px;
+}
+
+/* ....... number progress item end here ...... */
+
+/* ========= Experience progress bar and counting part end =========== */
+
+/* ............ service part start here ........ */
+.service-main {
+    height: 830px;
+    background-color: #f7fbfe;
+}
+
+.service-head {
+    height: 180px;
+    /* background-color: rgb(189, 158, 158); */
+    padding: 45px 0px;
+    text-align: center;
+
+}
+
+/* 0px 2px 22px rgba(0, 0, 0, 0.08); */
+
+.service-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.service-card-r {
+    margin-right: 45px;
+}
+
+.service-card-all {
+    height: 650px;
+    /* background-color: green; */
+
+}
+
+.srvice-card-det {
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 180px;
+    margin-left: 85px;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+
+.srvice-card-det:hover {
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon {
+    width: 18%;
+    /* background-color: gray; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-exp {
+    width: 95%;
+    /* background-color: #3498db; */
+}
+
+.service-exp h2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(36, 35, 35);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.service-exp p {
+    margin-top: 25px;
+    margin-left: 5px;
+    line-height: 25px;
+    color: rgb(105, 100, 100);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* ............ service part end here ........ */
+
+
+/* ...... portfolio part start here ...... */
+
+.portfolio-main {
+    max-width: 100%;
+    height: fit-content;
+
+    /* background-color: gray; */
+}
+
+.portfolio-head {
+    text-align: center;
+    height: 220px;
+    padding: 45px 0px;
+    /* background-color: burlywood; */
+}
+
+.portfolio-head h2 span {
+    border-bottom: 4px solid #3498db;
+}
+
+.portfolio-option {
+    margin-top: 50px;
+}
+
+.portfolio-option a {
+
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.portfolio-option a button {
+    width: 70px;
+    padding: 12px;
+    cursor: pointer;
+    margin-left: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+}
+
+
+.portfolio-option .all-btn {
+
+    background-color: #3498db;
+}
+
+.portfolio-option button:hover {
+    background-color: #3498db;
+
+}
+
+/* ...... portfolio part end here ...... */
+
+/* ...... portfolio card start here ...... */
+
+
+.portfolio-card {
+    height: 1150px;
+    margin-top: 35px;
+    /* background-color: goldenrod; */
+}
+
+.portfolio-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+    width: 85%;
+    height: 350px;
+    /* background-color: black; */
+}
+
+.port-card {
+    width: 35%;
+    height: 340px;
+    margin-left: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: lightseagreen; */
+}
+
+
+.port-img {
+    height: 270px;
+    background-color: rgb(51, 48, 48);
+}
+
+.port-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.port-img img:hover {
+
+    opacity: 0.5;
+}
+
+.port-det {
+    max-width: 100%;
+    height: 105px;
+    /*      
+    background-color: purple; */
+}
+
+.port-sub {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 125px;
+}
+
+
+
+/* ...... portfolio card end here ...... */
+
+/* .............. testimonial part end here .................. */
+.testimonial-main {
+    /* background-color: green; */
+    height: 750px;
+    margin-top: 45px;
+    background-color: #f7fbfe;
+}
+
+.testi-head {
+    height: 150px;
+    /* background-color: blueviolet; */
+}
+
+.testi-head h2 span {
+    border-bottom: 4px solid #3498db;
+}
+
+.testi-head p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testi-det {
+    padding: 60px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.testi-card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+    /* background-color: aquamarine; */
+}
+
+
+.testi-card-all {
+    width: 25%;
+    height: 400px;
+    cursor: pointer;
+    margin-left: 25px;
+    user-select: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* background-color: purple; */
+}
+
+.testi-card-text {
+
+    height: 190px;
+    /* background-color: green; */
+}
+
+.testi-card-text p {
+    width: 85%;
+    padding: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.testi-card-img img {
+
+    width: 120px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.testi-img-det {
+    height: 86px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    line-height: 1.5;
+    /* background-color: antiquewhite; */
+}
+
+/* .............. testimonial part end here .................. */
+
+/* ......team part start here ...... */
+.team-main {
+    height: 650px;
+    background-color: gray;
+}
+
+.team-head {
+    height: 180px;
+    background-color: green;
+}
+
+.team-port-all {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    background-color: purple;
+}
+
+.team-port {
+    width: 25%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+
+/* ......team part end here ...... */
+
+
+
+/* ...... contact part start here ...... */
+.contact-main {
+    height: 950px;
+    background-color: royalblue;
+}
+
+.contact-head {
+    height: 180px;
+    background-color: rgb(164, 212, 212);
+}
+
+.contact-way {
+    height: 280px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.all-way {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: darkkhaki;
+}
+
+.way-location {
+    width: 30%;
+    height: 130px;
+    background-color: darkgreen;
+
+    display: flex;
+
+}
+
+.way-loc-l {
+    height: 130px;
+    width: 30%;
+    background-color: darkred;
+}
+
+.way-email {
+    width: 30%;
+    height: 130px;
+    background-color: lightblue;
+}
+
+.way-call {
+    width: 30%;
+    height: 130px;
+    background-color: burlywood;
+}
+
+
+.contact-form {
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: darkolivegreen;
+}
+
+/* ...... contact part end here ...... */
+
+/* ........ footer part start here ...... */
+
+.footer-main{
+    max-width: 100%;
+    height: 350px;
+    background-color: #3498db;
+}
+
+
+
+/* ........ footer part end here ...... */
+
+/* ........ creadit part started here ...... */
+
+ .creadit-main{
+    max-width: 100%;
+    height: 150px;
+    background-color: darkslategrey;
+ }
+
+/* ........ creadit part end here ...... */
+
+
